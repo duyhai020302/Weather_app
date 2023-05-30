@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/all.min.js"></script>
+    <script src="js/moment.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-section">
+            <div class="search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" name="search-city" id="search-input" placeholder="Seach city">
+                <span class="microphone recording">
+                    <i class="fas fa-microphone"></i>
+                    <span class="recording-icon"></span>
+                </span>
+            </div>
+            <div class="infor-wrapper">
+                <p class="city-name">Ho Chi Minh</p>
+                <p class="weather-state">May Thua</p>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                <p class="temperature">26</p>
+            </div>
+
+        </div>
+        <div class="additional-section">
+            <div class="row">
+                <div class="item">
+                    <div class="label">Sun rise</div>
+                    <div class="value sunrise">6:16</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">Sun set</div>
+                    <div class="value sunset">17:57</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">Humidity</div>
+                    <div class="value"><span class="humidity">73</span>%</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">Wind</div>
+                    <div class="value"><span class="windspeed">5.54</span>km/h</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
